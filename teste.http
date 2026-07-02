@@ -1,0 +1,27 @@
+http://localhost:3000/cliente/
+
+###
+
+POST http://localhost:3000/cliente/
+Content-Type: application/json
+
+{
+    "nome": "José do leite pinto costa",
+    "email": "josepinmto@gmail.com",
+    "telefone": "1967676-6969"
+}
+
+
+###
+POST http://localhost:3000/produto/
+Content-Type: application/json
+
+{
+    "nome":"Amor",
+    "categoria":"Dificil",
+    "preco":500000.00,
+    "estoqueMinimo":0
+}
+
+###
+http://localhost:3000/produto/
